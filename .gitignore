@@ -34,7 +34,11 @@ out/
 *.rar
 
 ### Exclusions ###
-!gradle/wrapper/gradle-wrapper.jar
+gradle/wrapper/gradle-wrapper.jar
 !**/src/main/**
 !**/src/test/**
-!/artifacts/app-card-delivery.jar
+/artifacts/app-card-delivery.jar
+/build.gradle
+/dbuild.gradle
+/gradlew.bat
+/settings.gradle
