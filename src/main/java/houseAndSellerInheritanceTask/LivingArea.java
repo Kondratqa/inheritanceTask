@@ -1,5 +1,5 @@
 package houseAndSellerInheritanceTask;
-/*Класс House:
+/*Класс LivingArea:
 • Поля:
 • адрес (String)
 • площадь (double)
@@ -11,7 +11,7 @@ package houseAndSellerInheritanceTask;
 • Конструктор для инициализации всех полей.
 • Геттеры и сеттеры для всех полей.
 • Метод calculatePricePerSquareMeter(), который возвращает цену за квадратный метр. */
-public class House {
+public class LivingArea {
 
     private String addres;
     private double square;
@@ -19,12 +19,17 @@ public class House {
     private double price;
     private int yearBuilt;
 
-    public House(String addres, double square, int numberOfRooms, double price, int yearBuilt){
+    public LivingArea(String addres, double square, int numberOfRooms, double price, int yearBuilt){
         this.addres = addres;
         this.square = square;
         this.numberOfRooms = numberOfRooms;
         this.price = price;
         this.yearBuilt = yearBuilt;
+    }
+
+    public LivingArea() {
+        System.out.println("Inside LivingArea" + getAddres());
+
     }
 
     public String getAddres(){
@@ -60,6 +65,6 @@ public class House {
     //Метод calculatePricePerSquareMeter(), который возвращает цену за квадратный метр
     public void calculatePricePerSquareMeter(){
         double pricePerSquareMeter = price / square;
-        System.out.println("Цена за квадратный метр " + pricePerSquareMeter + " рублей");        
+        System.out.println("Цена за квадратный метр " + pricePerSquareMeter + " рублей");
     }
 }
