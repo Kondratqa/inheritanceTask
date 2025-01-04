@@ -2,12 +2,11 @@ package InheritanceTask1;
 
 public class Main {
     public static void main(String[] args) {
-        Animal hours = new Animal("hours");
-        System.out.println(hours.getName());
-        hours.makeSound();
+        Horse myHours = new Horse("Rysak");
+        myHours.makeSound();
 
-        Animal cat = new Animal("cat");
-        cat.makeSound();
+        Cat myCat = new Cat("Barsik");
+        myCat.makeSound();
     }
 }
 
