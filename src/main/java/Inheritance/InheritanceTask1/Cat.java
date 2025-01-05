@@ -1,4 +1,4 @@
-package InheritanceTask1;
+package Inheritance.InheritanceTask1;
 
 public class Cat {
     private String nickname;
