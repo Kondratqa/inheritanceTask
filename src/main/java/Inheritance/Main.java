@@ -1,26 +1,26 @@
 package Inheritance;
 
 
-import Inheritance.affter_extends.Animal;
-import Inheritance.affter_extends.Cat;
-import Inheritance.affter_extends.Horse;
-import Inheritance.affter_extends.Tigr;
+import Inheritance.affter_extends.*;
 
 
 public class Main {
     public static void main(String[] args) {
 
-        Animal myAnimal = new Animal("","",0);
+        Animal myAnimal = new Animal("","",0, "");
         myAnimal.makeSound();
         
         Horse horse = new Horse("Rysak", 100, "Бегает");        
-        horse.printHorse();
+        horse.printAnimal();
 
         Cat cat = new Cat("Barsik", "бегает,", 7);
-        cat.printCat();
+        cat.printAnimal();
 
         Tigr tigr = new Tigr("Шерхан", "бегает", 25);
-        tigr.printTigr();
+        tigr.printAnimal();
+
+        Voron voron = new Voron("Каркуша", "Летает", 2);
+        voron.printAnimal();
     }
 }
 
