@@ -1,11 +1,16 @@
 package Inheritance.affter_extends;
 
 public class Animal {
+    
+    String nickname;
+    String run;
+    int weight;   
 
-    protected String nickname;
-    protected String run;
-    protected int weight;  
-
+    public Animal(String nickname, String run, int weight) {
+        this.nickname = nickname;
+        this.run = run;
+        this.weight = weight;
+    }
     public String getNickname() {
         return nickname;
     }

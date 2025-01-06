@@ -9,7 +9,7 @@ import Inheritance.affter_extends.Horse;
 public class Main {
     public static void main(String[] args) {
 
-        Animal myAnimal = new Animal();
+        Animal myAnimal = new Animal("","",0);
         myAnimal.makeSound();
         
         Horse horse = new Horse("Rysak", 100, "Бегает");        
