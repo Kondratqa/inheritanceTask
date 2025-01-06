@@ -1,17 +1,22 @@
 package Inheritance;
 
+
 import Inheritance.affter_extends.Animal;
+import Inheritance.affter_extends.Cat;
 import Inheritance.affter_extends.Horse;
+
 
 public class Main {
     public static void main(String[] args) {
 
-        Animal myHorse = new Horse("Rysak", 100);
-        //myHorse.getNickname();
-        System.out.println(myHorse.getNickname());
+        Animal myAnimal = new Animal();
+        myAnimal.makeSound();
         
+        Horse horse = new Horse("Rysak", 100, "Бегает");        
+        horse.printHorse();
 
-
+        Cat cat = new Cat("Barsik", "бегает,", 7);
+        cat.printCat();
     }
 }
 
