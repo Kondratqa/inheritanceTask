@@ -4,6 +4,7 @@ package Inheritance;
 import Inheritance.affter_extends.Animal;
 import Inheritance.affter_extends.Cat;
 import Inheritance.affter_extends.Horse;
+import Inheritance.affter_extends.Tigr;
 
 
 public class Main {
@@ -17,6 +18,9 @@ public class Main {
 
         Cat cat = new Cat("Barsik", "бегает,", 7);
         cat.printCat();
+
+        Tigr tigr = new Tigr("Шерхан", "бегает", 25);
+        tigr.printTigr();
     }
 }
 
