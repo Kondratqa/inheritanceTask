@@ -21,6 +21,7 @@ public class Main {
 
         Voron voron = new Voron("Каркуша", "Летает", 2);
         voron.printAnimal();
+        voron.makeSound();
     }
 }
 
