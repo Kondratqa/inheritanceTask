@@ -1,7 +1,4 @@
-package Inheritance;
-
-
-import Inheritance.affter_extends.*;
+package Inheritance.affter_extends;
 
 
 public class Main {
